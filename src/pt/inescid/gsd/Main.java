@@ -33,16 +33,13 @@ public class Main {
     Transaction t1 = tm.begin();
      
     Put put = new Put(ROW.getBytes());
-    System.out.println("Where am i stuck 3");
     put.add(FAM.getBytes(), COL.getBytes(), data.getBytes());
-    System.out.println("Where am i stuck 2");
     tt.put(t1, put);
-    System.out.println("Where am i stuck 1");
+    
     tm.commit(t1);
-    System.out.println("Where am i stuck 0");
+    
     tt.close();
     //Transaction end
-    System.out.println("Where am i stuck -1");
     
    }
 
@@ -52,6 +49,7 @@ public class Main {
   	try{
   		System.out.println("...Starting");
   		executeTransaction();
+  		System.out.println("...leaving");
   	} catch(Exception e){
   		System.out.println(e);
   		e.printStackTrace();

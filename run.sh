@@ -1,2 +1,2 @@
-java -cp lib/*:bin/:. Main
+java -cp lib/*:bin/:. pt/inescid/gsd/Main
 

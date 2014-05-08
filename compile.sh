@@ -1,1 +1,1 @@
-javac -d out/ -cp lib/*:out/:. src/Main.java
+javac -d bin/ -cp lib/*:bin/:. src/pt/inescid/gsd/Main.java

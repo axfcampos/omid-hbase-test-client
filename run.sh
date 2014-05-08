@@ -1,2 +1,2 @@
-java -cp lib/*:out/:. Main
+java -cp lib/*:bin/:. Main
 

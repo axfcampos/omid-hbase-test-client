@@ -35,11 +35,12 @@ public class Main {
     Put put = new Put(ROW.getBytes());
     put.add(FAM.getBytes(), COL.getBytes(), data.getBytes());
     tt.put(t1, put);
-    
+    System.out.println("Where am i stuck 1");
     tm.commit(t1);
-    
+    System.out.println("Where am i stuck 0");
     tt.close();
     //Transaction end
+    System.out.println("Where am i stuck -1");
     
    }
 

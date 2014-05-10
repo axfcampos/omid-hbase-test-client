@@ -39,6 +39,7 @@ public class Main {
     tm.commit(t1);
     
     tt.close();
+    
     //Transaction end
     
    }

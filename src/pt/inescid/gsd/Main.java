@@ -18,8 +18,8 @@ public class Main {
   	
   	//HBase configuration
 		Configuration conf = HBaseConfiguration.create();
-		//conf.set("tso.host", "ginja-a1");
-		//conf.setInt("tso.port", 1234);
+		conf.set("tso.host", "ginja-a1");
+		conf.setInt("tso.port", 1234);
 		
 		
 		

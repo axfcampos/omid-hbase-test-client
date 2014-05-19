@@ -9,7 +9,7 @@ import com.yahoo.omid.transaction.*;
 public class Main {
 
 	protected final static String TEST_TABLE = "test";
-	protected final static String ROW = "row3";
+	protected final static String ROW = "row4";
 	protected final static String FAM = "cf1";
 	protected final static String COL = "cl1";
 	protected final static String data = "The third restaurant at the end of the universe";
